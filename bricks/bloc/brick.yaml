@@ -1,0 +1,14 @@
+name: bloc
+description: A new brick created with the Mason CLI.
+repository: https://github.com/mjdarvishi/mason_test
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Enter the name of your bloc[lowercase only]
+    default: bloc
+    prompt: What is the feature name [lowercase only]?
